@@ -1,3 +1,3 @@
 #The Design Store
 
-A simple design using Boostrap v3.1.1.
+A demo for The Design Store repository.
