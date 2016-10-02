@@ -2,6 +2,9 @@
 
 A simple design using Boostrap v3.1.1.
 
+#Demo
+View [the live demo](https://ashmenhennett.github.io/The-Design-Store/).
+
 ##Frameworks & Libraries
 - [Twitter Bootstrap](https://github.com/twbs/bootstrap)
 - [jQuery](https://jquery.com/)
