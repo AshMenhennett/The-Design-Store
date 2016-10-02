@@ -8,6 +8,10 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Roboto+Slab:100">
 		<link rel="stylesheet" href="css/custom.css">
+		<!--[if lt IE 9]>
+	  		<script src="js/html5shiv.js"></script>
+	  		<script src="js/respond.js"></script>
+	  	<![endif]-->
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -33,12 +37,12 @@
 			</div>
 		</nav>
 	
-		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+		<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 		    		<div class="modal-header">
 		      			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
-		        		<h4 class="modal-title" id="myModal">Login or Register</h4>
+		        		<h4 class="modal-title" id="myModal">Sign up to get started!</h4>
 		      		</div>
 		      		<div class="modal-body">
 		        		<form action="#" method="POST">
@@ -48,14 +52,10 @@
 							<div class="form-group">
 								<input type="password" class="form-control" placeholder="Password">
 							</div>
-							<div class="form-group">
-								<input type="submit" class="btn btn-primary" value="Login">
-								<input type="submit" class="btn btn-primary" value="Register">
-							</div>
 		    			</form>
 		    		</div>
 		      		<div class="modal-footer">
-		        		<a href="#" class="btn btn-primary" data-dismiss="modal">Forgot Password?</a>
+		        		<input type="submit" class="btn btn-default btn-md pull-right" value="Sign Up">
 		      		</div>
 		    	</div>
 		  	</div>
@@ -66,7 +66,7 @@
 				<h1>The Design Store</h1>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. </p>
-				<p><a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#login">My Account</a></p>
+				<p><a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#signup">Get Started</a> <a data-scroll class="btn btn-default btn-lg" href="#services">Learn More</a></p>
 			</div>
 		</section>
 		
@@ -77,6 +77,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4">
+						<!-- Service graphics from: https://roundicons.com/ -->
 						<img src="img/services/1.png" alt="">
 						<p class="lead">Prototyping</p>
 						<p class="info">Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla.Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
@@ -163,6 +164,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3">
+						<!-- Avatars from: http://facebox.io/ -->
 						<img data-toggle="tooltip" data-placement="bottom" title="Bob Jones" src="img/avatars/1.png" alt="">
 						<p class="lead">CEO and Co Founder</p>
 						<p class="info">Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
