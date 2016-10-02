@@ -11,9 +11,9 @@ A simple design using Boostrap v3.1.1.
 - [Normalize](https://github.com/necolas/normalize.css)
 
 ##Assets
-- Background images are from [!Pixabay](https://pixabay.com).
-- Avatars are from [!Facebox](http://facebox.io/).
-- Service graphics are from [!Round Icons](https://roundicons.com/).
+- Background images are from [Pixabay](https://pixabay.com).
+- Avatars are from [Facebox](http://facebox.io/).
+- Service graphics are from [Round Icons](https://roundicons.com/).
 
 ##License
 MIT Licensing
